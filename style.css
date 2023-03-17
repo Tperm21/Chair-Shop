@@ -1,0 +1,144 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@500&display=swap');
+  * {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+  }
+Body {
+    font-family: 'Inter', sans-serif;
+    /* background-color: #212121; */
+    border-bottom: 5px solid #087f5b ;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+.hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+    margin-top: 50px;
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+h1 {
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+.rand {
+    margin: 30px 0;
+}
+.hero-info {
+    line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.btn {
+    
+    background-color: #087f5b;
+    color: #fff;
+    
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+}
+.btn-main {
+    border-radius: 50px;
+    padding: 16px 32px;
+}
+.btn:hover {
+    background-color: #0ca678;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    
+}
+.feature .img {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.hero {
+    margin-bottom: 100px;
+}
+h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    letter-spacing: -0.5px;
+}
+.feature h4 {
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+.feature p {
+    line-height: 1.6;
+    font-size: 18px;
+}
+.review {
+    margin: 20px 0;
+    background-color: #0ca678;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-radius: 20px;
+    letter-spacing: 1.1;
+    letter-spacing: -0.5px;
+    color: #fff;
+    padding: 30px;
+    column-gap: 50px;
+}
+.review-text {
+    line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.review-author {
+    color: #c3fae8;
+}
+.gridpc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    margin-bottom: 50px;
+ 
+}
+.pcont {
+    height: auto;
+    border: black 10px;
+    border-radius: 20px;
+    background-color: #FFF;
+    box-shadow: 0px 10px 10px #ced4da, 0px -10px 10px #ced4da, 10px 0px 10px #ced4da, -10px 0px 10px #ced4da;
+}
+ul {
+    list-style: none;
+    margin-bottom: 50px;
+}
+svg {
+    stroke: teal;
+    width: 30px;
+}
+.pkg-name {
+    margin: 20px 0px 20px 20px;
+}
+.pkg-text {
+    margin-left: 20px;
+}
+.cart {
+    border-radius: 30px;
+    padding: 16px 32px;
+}
+span {
+    margin-right: 20px;
+    margin-left: 20px;
+}
